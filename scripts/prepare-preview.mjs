@@ -27,7 +27,7 @@ for(const path of files){
 const receipt={schema:'falsify.branch-preview.v1',
   sourceRepository:'https://github.com/Shinick-Han/falsify-branch-preview',previewCommit:git('rev-parse','HEAD'),
   teamRepository:'https://github.com/Pseudo-Lab/Falsify',teamBranch:'feat/workbench-html-guide-20261012',
-  teamSourceCommit:'f76192d3890115e3d45fafca32f21caed5195dd2',
+  teamSourceCommit:'3bfea282ae1879031534c1e8569da7873a4c594b',
   unofficial:true,staticOnly:true,modelCalls:false,files:packaged};
 writeFileSync(join(out,'preview-source.json'),JSON.stringify(receipt,null,2)+'\n',{flag:'wx'});
 writeFileSync(join(out,'.nojekyll'),'');
