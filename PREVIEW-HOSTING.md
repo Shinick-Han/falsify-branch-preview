@@ -4,7 +4,7 @@ This repository hosts the **unofficial** personal preview at https://shinick-han
 The online guide is https://shinick-han.github.io/falsify-branch-preview/guide.html .
 
 It retains the complete public source of the Pseudo-Lab/Falsify proposal branch at
-`840deccbec24200f5d387f279b4479a37e73c50f`. Only hosting files were added in this repository; the team's runtime code is
+`5a3db7ba61d16333c09b73c843c637386d873159`. Only hosting files were added in this repository; the team's runtime code is
 unchanged. The frozen source is not automatically synchronized with later team branch commits. To update, review and
 import an explicit source commit, update the packaging receipt's teamSourceCommit, then push this repository's default
 `feat/workbench-html-guide-20261012` branch.
