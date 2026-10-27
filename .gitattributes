@@ -1,0 +1,2 @@
+# Keep imported Workbench files byte-identical to their recorded source commit.
+tools/workbench/** -text
