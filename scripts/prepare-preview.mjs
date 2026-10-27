@@ -29,7 +29,7 @@ const receipt={schema:'falsify.branch-preview.v1',
   teamRepository:'https://github.com/Pseudo-Lab/Falsify',teamBranch:'feat/workbench-html-guide-20261012',
   teamSourceCommit:'f84dca12194285862030c87765b17edc19b03d11',
   workbenchRepository:'https://github.com/Shinick-Han/falsify-workbench',
-  workbenchSourceCommit:'0a45deb28e1f57bc0fa4bc9222cf23b59fb6f763',
+  workbenchSourceCommit:'abb6b99978f3cb419a16ea6d34bcc8ce048f1575',
   unofficial:true,staticOnly:true,modelCalls:false,files:packaged};
 writeFileSync(join(out,'preview-source.json'),JSON.stringify(receipt,null,2)+'\n',{flag:'wx'});
 writeFileSync(join(out,'.nojekyll'),'');
